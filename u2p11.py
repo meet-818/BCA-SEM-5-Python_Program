@@ -1,0 +1,15 @@
+list1 = list(range(10))
+print("Original List")
+print(list1)
+print()
+list1.append(30)
+print("List After Appending")
+print(list1)
+print()
+list1[1] = 99
+print("List After Updating")
+print(list1)
+print()
+del list1[0]
+print("List After Deleting")
+print(list1)
